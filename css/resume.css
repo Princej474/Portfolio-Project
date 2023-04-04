@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+/* ----------------------------Navigation bar -------------------------------------------------------- */
+#Nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+#bar li {
+    margin: 0px 10px 15px 15px;
+    font-size: 17px;
+    color: white;
+}
+
+#bar li:hover{
+    text-decoration: underline;
+    color: red;
+}
+/*---------------------------- background image ----------------------------------------------------------------------------- */
+
+.Header{
+    height: 65vh;
+    opacity: 1.8;
+    background-image: url("https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+
+}
+
+/* ---------------------------------name and social icon -----------------------------------------*/
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 5rem;
+    letter-spacing: 0.1rem;
+    color: red;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#my-name:hover{
+    color:  lightseagreen;
+    text-decoration: wavy;
+}
+.social-icons li a i {
+    color: red;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.social-icons li a i:hover{
+    color:  lightseagreen;
+    border-radius: 50%;
+    border: 1px solid lightseagreen;
+}
+
+#logo{
+    display: flex;
+    list-style-type: none;
+    margin: 0px 5px 0px 50px;
+    margin-right: 70px;
+    /* margin-bottom: 50px; */
+    align-items: center;
+    justify-content: center;
+}
+
+ /*--------------------------------- image and about us----------------------------------------------  */
+ #about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+#my-image img:hover{
+    border: 3px solid lightseagreen;
+    border: 3px solid lightseagreen;
+    box-shadow: 1px 1px 10px 2px lightseagreen;
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+/*---------------------------------------------- skills----------------------------- */
+
+#skills{
+    background-color: lightgray;
+}
+#skill-head{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    margin: 2%;
+}
+#skill-head:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.skill-name{
+    display: flex;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    justify-content: space-between;   
+}
+
+.skill-box{
+    border: 1px solid black;
+    border-radius: 500px;
+    padding: 11px;
+    background-color: red;
+    margin: 5px;
+    width: 70%;
+}
+
+.skill-box:hover{
+    background-color:lightseagreen;
+}
+
+
+
+
+
+
+
